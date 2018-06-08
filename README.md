@@ -1,4 +1,4 @@
-# MODX-Select-Input-CSV
+# MODX Select Inputs from CSV
 Your typical automotive Year / Make / Model Input from a CSV
 
 Page HTML
