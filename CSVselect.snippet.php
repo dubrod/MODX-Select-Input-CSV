@@ -42,7 +42,9 @@ foreach($makeData as $opt){
     $makeOpt .= '<option value="'.$opt.'" '.$selected.'>'.$opt.'</option>';
 }
 foreach($modelData as $opt){
-    $modelOpt .= '<option value="'.$opt.'">'.$opt.'</option>';
+    $selected = "";
+    if($opt == $makeParam){$selected = "selected";}
+    $modelOpt .= '<option value="'.$opt.'" '.$selected.'>'.$opt.'</option>';
 }
 
 $yearOpt .= '</select>';
