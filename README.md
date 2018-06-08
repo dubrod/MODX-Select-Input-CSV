@@ -1,11 +1,11 @@
 # MODX Select Inputs from CSV
 Your typical automotive Year / Make / Model Input from a CSV
 
-You can deep link (autofill) a form with URL params "quote&year=2019&make=Jeep&model=Wrangler"
+You can deep link (autofill) a form with URL params ".com/quote/&year=2019&make=Jeep&model=Wrangler"
 
 No AJAX requests just a quick refresh of the page with pure JS. 
 
-Page HTML
+Page HTML:
 
 ```
 [[!CSVselect]]
